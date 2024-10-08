@@ -1,0 +1,99 @@
+.contenaire{
+    
+    background-image: url(tunmc-lobby-entrance-8702-hor-clsc.jpg);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.lien{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin-right: 20px;
+    margin-left: 130px;
+    display: inline-block;
+    position: relative;
+    
+}
+
+.lien:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  
+}
+
+.lien:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+.titre{
+    margin-top: 180px;
+    text-align: center;
+    font: verdana;
+    color: white;
+    font-size: 25px;
+}
+
+h3{
+    text-align: center;
+    color: #a0072a;
+    font-size: 40px;
+}
+
+.sec1_art1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.sec1_art1 p{
+    text-align:justify;
+    text-justify: inter-word;
+    font-size: 25px;
+    padding: 20px; 
+}
+
+
+.sec1_art2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.sec1_art2 p{
+    text-align:justify;
+    text-justify: inter-word;
+    font-size: 25px;
+    padding: 20px;
+}
+
+
+.sec2_art1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    
+}
+
+.sec2_art1 p{
+    text-align:justify;
+    text-justify: inter-word;
+    font-size: 25px;
+    padding: 20px;
+}
+

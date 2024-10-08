@@ -1,0 +1,85 @@
+
+.image{
+    
+    background-size:cover;
+    height: 650px;
+    width: 100%;
+    background-image: url(tunmc-lobby-8701-hor-clsc.jpg);
+    overflow: hidden;
+
+}
+.lien{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin-right: 20px;
+    margin-left: 130px;
+    display: inline-block;
+    position: relative;
+    
+}
+
+.lien:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  
+}
+
+.lien:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.titre{
+    margin-top: 120px;
+    text-align: center;
+    font: verdana;
+    color: white;
+    font-size: 25px;
+}
+
+.p{
+    color: #a0072a;
+    text-align: center;
+    font-size: 30px;
+   
+}
+
+.section1{
+    display: flex;
+}
+
+form{
+    padding-left: 250px;
+    padding-right: 40px;
+}
+
+.donne{
+    border: 1px solid;
+    padding: 5px;
+}
+
+.button{
+    color: #a0072a;
+    width: 80px;
+    height: 30px;
+}
+
+.button:hover{
+    color: white;
+    background-color: #a0072a;
+}
+
+.map{
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+   
